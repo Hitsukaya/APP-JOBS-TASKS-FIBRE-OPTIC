@@ -50,12 +50,6 @@ Run database migrations:
 php artisan migrate
 ```
 
-Run database seeder:
-
-```sh
-php artisan db:seed
-```
-
 > **Note**  
 > If you get an "Invalid datetime format (1292)" error, this is probably related to the timezone setting of your database.  
 > Please see https://dba.stackexchange.com/questions/234270/incorrect-datetime-value-mysql
@@ -78,6 +72,7 @@ You're ready to go! Visit the url in your browser, and login with:
 -   **Username:** 
 -   **Password:**
 -   **Run Command: php artisan make:filament-user**
+-   **Edit Databases: Role Admin/Manager/Engineer**
 
 ## Features to explore
 
